@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-inline-entry",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Plugin for embedding an entry point in index.html",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zepster",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
